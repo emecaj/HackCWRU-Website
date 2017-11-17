@@ -1,0 +1,18 @@
+@import "stylesheets/globals.scss";
+.faq{
+  .title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: calc(#{$spacingMargin} / 2);
+  }
+  .question {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: calc(#{$spacingMargin}/2);
+  }
+  .answer {
+    margin-left: 1cm;
+    margin-bottom: calc(#{$spacingMargin}/2)
+  }
+}
